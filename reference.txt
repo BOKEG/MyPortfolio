@@ -1,0 +1,12 @@
+<div class="text-3xl text-orange-500 font-bold p-6 bg-slate-900 md:text-purple-300 h-screen flex items-center justify-center">
+    <div class="w-48 h-48 p-4 rounded-lg shadow-2xl sm:w-64 sm:h-64 md:w-72 md:h-72 lg:w-96 lg:h-96 sm:flex sm:gap-11 p-0 bg-white">
+        <div class="flex items-center gap-3">
+            <img class="w-12 h-12 object-cover rounded-full sm:h-full sm:w-36 md:h-40 md:w-60 lg:h-32 lg:w-60" src="images/grac.JPG" alt="">
+            <span>Grace Boke</span>
+        </div> 
+        <div class="mt-2">
+            <p class="italic text-sm text-neutral-950">Lorem ipsum dolor sit amet, Cum ratione 
+            corrupti recusandae facere voluptate veritatis animi laudantium itaque rem quia deserunt velit explicabo ullam et dignissimos ipsam, quam alias laborum.</p>
+        <span class="text-grey md:text-pink-600">Co-founder</span>
+        </div>   
+    </div>
