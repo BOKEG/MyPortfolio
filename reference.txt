@@ -10,3 +10,6 @@
         <span class="text-grey md:text-pink-600">Co-founder</span>
         </div>   
     </div>
+
+    npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./input.css -o ./dist/output.css --watch
