@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./dist/output.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online blog</title>
+    <title>News Kenya</title>
+    <script src="https://kit.fontawesome.com/8324bd09e8.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- headersection -->
         <div class=" text-white font-bold bg-gray-800 p-3">
             <nav class="">
                 <div class="container mx-auto flex justify-between">
-                    <div>
+                    <div class="flex gap-5">
                         <img class="w-8 rounded-full" src="images/logo.png" alt="">
+                        <span>News Kenya</span>
                     </div>
                     <ul class=" md:flex gap-5 font-bold uppercase">
                         <li><a href="#home">home</a></li>
-                        <li><a href="#news">news</a></li>
+                        <li><a href="#headline">headline</a></li>
+                        <li><a href="#categories">categories</a></li>
                         <li><a href="#recent post">recent post</a></li>
                         <li><a href="#subscription">subscription</a></li>
                     </ul>
@@ -27,39 +30,141 @@
         </div>
 
         <!-- featuredpostsection -->
-    <div>
+    <div id="headline" class="container mx-auto py-4">
+        <h1 class="text-center text-xl font-bold">Headlines today</h1>
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+            <img class="" src="images/ryp.jpeg" alt="">
+            <h1>IEBC Report</h1>
+            <p class="text-gray-400">William ruto declared President-elect</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://nation.africa/kenya/news/politics/william-ruto-declared-president-elect-3921224">Kenya elected President</a>
+        </div>
+        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+            <img class="" src="images/rai.jpeg" alt="">
+            <h1>Trending now</h1>
+            <p class="text-gray-400">Kenya's President Ruto asks opposition to give talks a chance</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://www.reuters.com/world/africa/kenyas-president-ruto-asks-opposition-give-talks-chance-2023-04-16/">opposition Leader</a>
+        </div>
+        <div class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3">
+            <img class="" src="images/mop.jpeg" alt="">
+            <h1>Breaking news</h1>
+            <p class="text-gray-400">Ruto nominates Murkomen as Interior CS</p>
+            <a class="text-indigo-600 font-semibold text-sm" href="https://www.the-star.co.ke/news/realtime/2024-12-19-ruto-nominates-murkomen-as-interior-cs">Interior CS</a>
+        </div>
+        </div>
 
+        
     </div>
 
     <!-- categorysection -->
-    <div>
+     <section id="categories">
+        <h1 class="text-3xl text-center font-bold mb-6 text-gray-950 pb-4">News Kenya Categories</h1>
+        <div class="max-w-4xl mx-auto p-4 border rounded-lg shadow-lg flex items-center space-x-4 bg-white lg:w-full">
+            <div class="flex-1">
+              <div class="flex items-center space-x-2 text-gray-500 text-sm">
+                <span class="font-semibold">Politics</span>
+                <span class="text-gray-400">•</span>
+                <span>26min</span>
+              </div>
+              <h2 class="mt-2 text-lg font-bold text-gray-800 hover:text-blue-600 cursor-pointer">
+                <a href="https://www.tuko.co.ke/politics/573286-limuru-drama-congregants-storm-church-kalonzo-musyoka-takes-stage/">
+                    Limuru: Drama as Congregants Storm Out of Church after Kalonzo Musyoka Takes to Stage 
+                </a>
+              </h2>
+             
+            </div>
+            <div class="w-24 h-24 flex-shrink-0 p-8">
+              <img 
+                src="images/kalo.jpeg" 
+                alt="Image" 
+                class="w-full h-full object-cover rounded-md"
+              />
+            </div> 
 
-    </div>
-
+            <div class="max-w-4xl mx-auto p-4 border rounded-lg shadow-lg flex items-start space-x-4 bg-white">
+                <div class="flex-1">
+                  <div class="flex items-center space-x-2 text-gray-500 text-sm">
+                    <span class="font-semibold">Firstpost</span>
+                    <span class="text-gray-400">•</span>
+                    <span>3min</span>
+                  </div>
+                  <h2 class="mt-2 text-lg font-bold text-gray-800 hover:text-blue-600 cursor-pointer"> 
+                    <a href="https://www.tuko.co.ke/politics/573279-ruto-embarrassed-gladys-shollei-discloses-ordered-impeach-gachagua-i-follow-orders/">
+                        Ruto Embarrassed as Gladys Shollei Discloses He Ordered Them to Impeach Gachagua: "I Follow Orders"
+                    </a>
+                  </h2>
+                 
+                </div>
+                <div class="w-24 h-24 flex-shrink-0 p-8">
+                  <img 
+                    src="images/top.jpeg" 
+                    alt="Image" 
+                    class="w-full h-full object-cover rounded-md"
+                  />
+                </div> 
+        </div>
+          
+        
+        </div>
+    
+     </section>
+   
     <!-- recentpostsection -->
-    <div>
-
-    </div>
+     <section id="recent post" class="p-8">
+        <h1 class="text-3xl text-center font-bold mb-6 text-gray-800 border-b pb-4">Recent posts</h1>
+        <div class="grid grid-cols-6 gap-4 max-w-2xl mx-auto p-6  border rounded-lg shadow-md">
+            <div class="col-span-1 bg-blue-500 text-black text-center py-4 rounded-md shadow-md">
+                <a href="https://www.tuko.co.ke/kenya/573241-nakuru-1-killed-30-injured-psv-bus-full-passengers-overturns-kinungi-area/" class="text-xl font-semibold text-blue-600 hover:underline">
+                    Nakuru: 1 Killed, 30 Injured as PSV Bus Full of Passengers Overturns at Kinungi Area
+                  </a>
+                  <p class="text-gray-500 text-sm mt-1">
+                    Published on <span class="italic">December 23rd</span>
+                  </p>
+            </div>
+            <div class="col-span-2  text-black text-center py-4 rounded-md shadow-md">
+                <a href="https://www.tuko.co.ke/kenya/573253-william-ruto-announces-dualling-nairobi-nakuru-highway-ease-traffic-congestion-year/" class="text-xl font-semibold text-blue-600 hover:underline">
+                    William Ruto Announces Dualling of Nairobi-Nakuru Highway to Ease Traffic Congestion: "Next Year"
+                  </a>
+                  <p class="text-gray-500 text-sm mt-1">
+                    Published on <span class="italic">December 20th</span>
+                  </p>
+            </div>
+            <div class="col-span-3 text-black text-center py-4 rounded-md shadow-md">
+                <a href="https://www.tuko.co.ke/sports/football/573305-premier-league-legend-names-team-challenge-liverpool-title/" class="text-xl font-semibold text-blue-600 hover:underline">
+                    Premier League Legend Names One Team That Can Challenge Liverpool for Title 
+                  </a>
+                  <p class="text-gray-500 text-sm mt-1">
+                    Published on <span class="italic">December 23rd</span>
+                  </p>
+            </div>
+          </div>
+     </section>
+    
 
     <!-- newslettersubscription -->
-    <div id="#Contact">
+    <div id="subscription" class="p-8">
         <div class="container mx-auto">
             <div class="flex flex-col items-center">
-                <h1 class="text-red-500 font-bold">CONTACT ME</h1>
-                <P class="font-semibold w-1/2 text-center">If you would like to reach me develop your project hit my inbox using the following form</P>
+                <h1 class="text-red-500 font-bold">Subscribe to Our Newsletter</h1>
             </div>
             <form class="mt-5 p-8 flex flex-col gap-5 items-center" action="">
                 <input class="p-2 w-full md:w-1/2 ring-1 rounded-sm" type="text" placeholder="Name">
                 <input class="p-2 w-full md:w-1/2 ring-1 rounded-sm" type="email" placeholder="Email">
-                <textarea class="p-2 w-full md:w-1/2 ring-1 rounded-sm" cols="20" rows="10" placeholder="Message"></textarea>
-                <button class="w-1/2 bg-indigo-700 px-3 py-2 text-white font-medium rounded-md cursor-pointer">Submit</button>
+                <button class="w-1/2 bg-indigo-700 px-3 py-2 text-white font-medium rounded-md cursor-pointer">Subcribe</button>
             </form>
         </div>
     </div>
 
     <!-- footersection -->
-     <div class="">
-
-     </div>
+    <footer class="bg-gray-800 p-4 flex justify-between items-center text-white">
+        <p>&copy; 2024 News Kenya. All rights reserved.</p>
+        <div class="p-5">
+            <ul class="flex flex-row gap-5 items-center justify-between">
+                <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f" style="color: #eef1f6;"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #e1e2e5;"></i></a></li>
+                <li><a href="https://ke.linkedin.com/"><i class="fa-brands fa-linkedin-in" style="color: #e3e7ee;"></i></a></li>
+              </ul> 
+           </div>
+      </footer>
 </body>
 </html>
